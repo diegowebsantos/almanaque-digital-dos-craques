@@ -7,18 +7,19 @@ html, body {
 
 /* Estiliza o corpo da página */
 body {
-    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-color: #DDDDDD; /* Cor de fundo da página */
+    font-family: "Chakra Petch", sans-serif;
+    background-color: #DDDDDD;
     background-image: url(../img/bg-geral.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Alinha os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    justify-content: center; /* Centraliza os itens verticalmente */
-    height: 100vh; /* Preenche a altura total da viewport */
-    margin: 0; /* Remove a margem padrão */
-    padding: 0; /* Remove o padding padrão */
+    display: block;
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -202,7 +203,7 @@ footer a:hover {
 /* MEU CSS HACK */
 
 .section-part-01 {
-    padding-top: 450px;
+    padding-top: 60px;
 }
 
 .logo {
