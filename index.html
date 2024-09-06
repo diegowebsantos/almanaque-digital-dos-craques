@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <!--<link rel="stylesheet" href="css/aos.css">-->
   <link rel="icon" href="img/favicon.png" type="image/x-icon">
   <title>Almanaque Digital Dos Craques do Santos Futebol Clube</title>
 </head>
@@ -28,7 +29,7 @@
         <ul id="alphabetList"></ul>
       </nav>
     </section>
-    <section id="resultados-pesquisa" class="resultados-pesquisa"></section>
+    <section id="resultados-pesquisa" class="resultados-pesquisa"></section><!-- aqui dentro da tag section é inserido o conteúdo pesquisado/lista -->
     <div class="text-center mini-logo">
       <img src="img/favicon-96x96.png" alt="">
     </main>
@@ -39,12 +40,12 @@
         <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
       </svg>
     </div>
-    <p>2024 - Santos Futebol Clube - Todos os direitos reservados</p>
-    <p>Entre em contato pelo e-mail: <a href="mailto:diegowebsantos@gmail.com"
-        target="_blank">diegowebsantos@gmail.com</a></p>
+    <p>2024 - Diego Web Designer - Todos os direitos reservados</p>
+    <p style="margin-bottom: 0;padding-bottom: 14px;">Entre em contato: <a href="https://www.instagram.com/diegowebsantos/" target="_blank">@diegowebsantos</a></p>
   </footer>
   <script src="js/dados.js"></script>
   <script src="js/app.js"></script>
+  <!--<script src="js/aos.js"></script>-->
   <script>
     const alphabetList = document.getElementById('alphabetList');
 
@@ -64,6 +65,9 @@
       alphabetList.appendChild(createListItem(letter));
     }
   </script>
+  <!--<script>
+    AOS.init();
+  </script>-->
 
 </body>
 
