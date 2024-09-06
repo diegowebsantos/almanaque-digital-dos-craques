@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon.png" type="image/x-icon">
+  <title>Almanque Digital Dos Craques do Santos FC</title>
+</head>
+
+<body>
+  <header>
+
+  </header>
+  <main>
+    <section class="section-part-01 text-center">
+      <div class="container">
+        <img id="minhaImagem" src="img/apre-almanaque-digital-dos-craques.png" class="logo_" alt="">
+        <h1>Pesquisar Atletas</h1>
+        <form>
+          <input type="text" placeholder="Digite o nome do Atleta">
+          <button type="submit" onclick="pesquisar()">Buscar</button>
+          <!--<button type="submit" onclick="reduzirImagem()">Buscar</button>-->
+        </form>
+      </div>
+      <nav>
+        <ul id="alphabetList"></ul>
+      </nav>
+    </section>
+    <section id="resultados-pesquisa" class="resultados-pesquisa"></section>
+    <div class="text-center mini-logo">
+      <img src="img/favicon-96x96.png" alt="">
+    </main>
+  </div>
+  <footer>
+    <div class="custom-shape-divider-top-1725508147">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+    </div>
+    <p>2024 - Santos Futebol Clube - Todos os direitos reservados</p>
+    <p>Entre em contato pelo e-mail: <a href="mailto:diegowebsantos@gmail.com"
+        target="_blank">diegowebsantos@gmail.com</a></p>
+  </footer>
+  <script src="js/dados.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    const alphabetList = document.getElementById('alphabetList');
+
+    // Função para criar um item de lista com um link
+    function createListItem(letter) {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = '#';
+      a.textContent = letter;
+      li.appendChild(a);
+      return li;
+    }
+
+    // Loop para criar todos os itens da lista
+    for (let i = 65; i <= 90; i++) {
+      const letter = String.fromCharCode(i);
+      alphabetList.appendChild(createListItem(letter));
+    }
+  </script>
+
+</body>
+
+</html>
