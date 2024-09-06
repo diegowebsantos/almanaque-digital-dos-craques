@@ -34,5 +34,11 @@ let dados = [
         foto: "img/atletas/img-clodoaldo.jpg",
         descricao: "Clodoaldo, volante de grande qualidade técnica, foi fundamental para a conquista da Copa de 1970.",
         link: "https://pt.wikipedia.org/wiki/Clodoaldo_(futebolista)#:~:text=Nos%20catorze%20anos%20em%20que,dos%20Campe%C3%B5es%20Intercontinentais%20de%201968."
+    },
+    {
+        atleta: "Edu",
+        foto: "img/atletas/img-edu.jpg",
+        descricao: "Edu era um jogador de extrema habilidade e chutes precisos. Muito temido por seus dribles, Edu figura entre os maiores dribladores de todos os tempos.",
+        link: "https://pt.wikipedia.org/wiki/Jonas_Eduardo_Am%C3%A9rico"
     }
 ];
