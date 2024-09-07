@@ -42,3 +42,6 @@ A imagem que ilustra este projeto é capa do livro **"Almanaque dos Craques do S
 **Vamos santizar a web!** ⚪⚫
 
 **#SantosFC #AlmanaqueDigital #CraquesDoPeixe**
+
+**Link do projeto(beta):**
+https://almanaque-digital-dos-craques.vercel.app/
