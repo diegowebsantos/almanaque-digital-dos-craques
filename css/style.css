@@ -126,16 +126,16 @@ section button:hover {
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #2e2e2e; /* Cor de fundo do rodapé */
-    color: #c9c9c9; /* Cor do texto */
-    text-align: center; /* Alinha o texto ao centro */
-    padding: 0; /* Espaçamento interno */
-    width: 100%; /* Largura total da página */
-    /*position: absolute; /* Posiciona o rodapé */
-    position: relative; /* Posiciona o rodapé */
-    bottom: 0; /* Alinha ao fundo da página */
-    font-size: 1rem; /* Tamanho da fonte */
+    background-color: #2e2e2e;
+    color: #c9c9c9;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    font-size: 1rem;
     padding-top: 42px;
+    padding-bottom: 42px;
 }
 
 footer a {
@@ -245,7 +245,7 @@ img {
   }
 .custom-shape-divider-top-1725508147 {
     position: absolute;
-    bottom: 90px;
+    bottom: 158px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -323,7 +323,7 @@ img {
     transition: all .3s;
 }
 .mini-logo img {
-    width: 4%;
+    width: 3%;
     margin-top: 0;
     margin-bottom: 40px;
 }
@@ -333,6 +333,23 @@ img {
     font-weight: 300;
     font-size: 14px;
 }
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+  }
+  .redes-sociais ul {
+    width: 163px;
+    margin: 0 auto;
+    display: flex;
+}
+  .redes-sociais ul li {
+    display: inline-block;
+    margin: 0 auto;
+}
+.redes-sociais i {
+    font-size: 24px;
+}
+
 
 /* Estilo para telas menores */
 @media screen and (max-width: 600px) {
@@ -343,6 +360,10 @@ img {
     nav li {
         width: 100%;
     }
+}
+
+@media (max-width: 768px) {
+    #alphabetList {display: none;}
 }
   
   @media (min-width: 576px) {
