@@ -1,4 +1,4 @@
-## Almanaque Digital dos Craques: Uma Homanagem ao **Santos Futebol Clube** e aos **pesquisadores da Assophis!** ⚽️
+## Almanaque Digital dos Craques do Santos FC: Uma Homanagem ao **Santos Futebol Clube** e aos **pesquisadores da Assophis!** ⚽️ - Imersão DEV com Google Gemini
 
 **O que é?**
 
