@@ -1,29 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <!--<link rel="stylesheet" href="css/aos.css">-->
   <link rel="icon" href="img/favicon.png" type="image/x-icon">
   <title>Almanaque Digital Dos Craques do Santos Futebol Clube</title>
 </head>
 
 <body>
-  <header>
-
-  </header>
+  <header></header>
   <main>
     <section class="section-part-01 text-center">
       <div class="container">
         <img id="minhaImagem" src="img/apre-almanaque-digital-dos-craques.png" class="logo_" alt="">
         <h1>Pesquisar Atletas</h1>
-        <form>
-          <input type="text" placeholder="Digite o nome do Atleta">
-          <button type="submit" onclick="pesquisar()">Buscar</button>
-          <!--<button type="submit" onclick="reduzirImagem()">Buscar</button>-->
-        </form>
+          <input id="campo-pesquisa" type="text" placeholder="Digite o nome do atleta ou a posição do mesmo">
+          <button onclick="pesquisar()">Pesquisar</button>
+          <p class="exemple">Pesquise também por exemplo: posição</p>
       </div>
       <nav>
         <ul id="alphabetList"></ul>
@@ -45,7 +40,6 @@
   </footer>
   <script src="js/dados.js"></script>
   <script src="js/app.js"></script>
-  <!--<script src="js/aos.js"></script>-->
   <script>
     const alphabetList = document.getElementById('alphabetList');
 
@@ -65,10 +59,6 @@
       alphabetList.appendChild(createListItem(letter));
     }
   </script>
-  <!--<script>
-    AOS.init();
-  </script>-->
-
 </body>
 
 </html>
