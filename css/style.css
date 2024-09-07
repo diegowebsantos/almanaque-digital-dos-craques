@@ -9,6 +9,7 @@ html, body {
 body {
     font-family: "Chakra Petch", sans-serif;
     background-color: #DDDDDD;
+    /*background-image: url(../img/bg-geral.jpg);*/
     background-image: url(../img/bg-geral.jpg);
     background-size: cover;
     background-position: 50% 50%;
@@ -316,7 +317,7 @@ img {
 }
 
 .section-part-01 nav li a:hover {
-    background-color: #f3f3f3;
+    background-color: #efefef;
     border-radius: 10%;
     text-decoration: underline;
     transition: all .3s;
@@ -325,6 +326,12 @@ img {
     width: 4%;
     margin-top: 0;
     margin-bottom: 40px;
+}
+.exemple {
+    font-style: italic;
+    color: #c3c1c1;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 /* Estilo para telas menores */
